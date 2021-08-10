@@ -9,7 +9,7 @@ os.chdir("C:/Users/saite/PycharmProjects/py38/0.GH/Chicago-Bears-Analysis")
 win_los_wiki = 'https://en.wikipedia.org/wiki/Super_Bowl'
 win_los_info = pd.read_html(win_los_wiki,header=0)
 win_los_tm = pd.DataFrame(win_los_info[4])
-win_los_tm.to_csv("./data/win_los_tm.csv",header=True)
+win_los_tm.to_csv("./data/win_los_tm.csv",index=False)
 
 # Chicago Bears Data
 url = 'https://www.chicagobears.com/team/players-roster/'
