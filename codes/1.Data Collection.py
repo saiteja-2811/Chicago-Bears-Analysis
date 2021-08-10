@@ -13,3 +13,4 @@ win_los_tm.to_csv("./data/win_los_tm.csv",index=False)
 
 # Chicago Bears Data
 url = 'https://www.chicagobears.com/team/players-roster/'
+
